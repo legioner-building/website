@@ -261,3 +261,17 @@ h4 {
     object-fit: cover;
     background-color: #4CAF50;
 }
+
+.footer {
+    position: absolute;
+    top: calc(300vh - 54px);
+    width: 100vw;
+    height: 24px;
+    display: inline;
+    font-size: 14px;
+    left: calc(50% - 110px);
+}
+
+.footer a {
+    text-decoration: none;
+}
