@@ -109,5 +109,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
+    width: 100%;
+    height: calc(100vh - 212px) !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: beige;
+    margin-top: 1px;
+}
+
+.accident {
+    width: 32%;
+    height: calc(100vh - 212px) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: burlywood;
+}
+
+.media {
+    width: 63%;
+    height: calc(100vh - 212px) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("../img/family@2x.jpg");
+    background-size: cover;
+}
+
+.normal {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 24px 14px 24px;
+    margin-top: 24px;
+    cursor: pointer;
+
 
 }
