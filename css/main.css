@@ -1,0 +1,113 @@
+body {
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100vh;
+    height: 100vw;
+    padding: 0 64px 0 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: aliceblue;
+    min-height: 112px !important;
+    height: 112px !important;
+}
+
+.logo-container {
+    height: 112px !important;
+    width: 32%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+
+}
+
+.logo {
+    width: 131px;
+    height: 20px;
+    background-image: url("../img/logo@2x.png");
+    background-size: 131px 20px;
+}
+
+.nav-container {
+    height: 112px !important;
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.nav-container ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    background-color: aqua;
+}
+
+.in-page__menu {
+    height: 24px !important;
+}
+
+.controls__menu {
+    height: 48px !important;
+}
+
+.nav-container ul li {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.nav-container ul li a {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-container ul li a:hover {
+    color: #4CAF50;
+}
+
+.nav-container ul li:first-child {
+    margin-left: 0;
+}
+
+.ghost-button {
+    padding: 12px 24px 12px 24px;
+    box-sizing: border-box;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+}
+
+.ghost-button a {
+    color: #4CAF50 !important;
+}
+
+.content {
+
+}
