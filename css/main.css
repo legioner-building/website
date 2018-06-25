@@ -9,6 +9,18 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h4 {
+    font-weight: 600;
+}
+
+.small-text {
+   font-size: 14px;
+}
+
+.bold-p {
+    font-weight: 500;
+}
+
 .wrapper {
     width: 100vh;
     height: 100vw;
@@ -126,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background: burlywood;
+    padding-right: 24px;
 }
 
 .media {
@@ -136,6 +148,10 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-right: 24px;
+}
+
+.family {
     background-image: url("../img/family@2x.jpg");
     background-size: cover;
 }
@@ -202,4 +218,46 @@ h1, h2, h3, h4, h5, h6 {
 .facebook {
     background-image: url("../img/facebook@2x.jpg");
     background-size: cover;
+}
+
+.owner {
+    background-image: url("../img/owner@2x.jpg");
+    background-size: cover;
+}
+
+.description {
+    margin-top: -16px;
+    margin-bottom: 8px;
+}
+
+.without-image {
+    background: none !important;
+}
+
+.columns {
+    width: 100%;
+    height: 35% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: aquamarine;
+}
+
+.column {
+    width: 30%;
+    height: 100% !important;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.video-container {
+    overflow: hidden;
+}
+
+#video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: #4CAF50;
 }
