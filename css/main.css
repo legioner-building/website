@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     color: #222;
     font-family: 'Roboto', sans-serif;
@@ -266,4 +270,140 @@ h4 {
 
 .footer a {
     text-decoration: none;
+}
+
+.contacts {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 64px 64px 64px;
+}
+
+.slider {
+    width: 465px;
+}
+
+.form {
+    width: 56%;
+}
+
+.reviews {
+    width: 100%;
+    height: 740px;
+    margin: 0 auto !important;
+}
+
+.reviews.slick-slider .slick-slide {
+    margin: 0 10px;
+    width: auto;
+    height: 740px;
+}
+
+.reviews.slick-slider .slick-dots {
+    bottom: 0px !important;
+    margin: 24px !important;
+    text-align: left !important;
+}
+
+.reviews.slick-slider .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: white !important;
+}
+
+.reviews.slick-slider .slick-dots li button:before {
+    font-size: 10px !important;
+    color: white !important;
+}
+
+.reviews-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 740px;
+    width: 465px;
+    color: white;
+}
+
+.reviews-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 80px;
+}
+
+.reviews-position {
+    font-size: .8em;
+}
+
+.review-spaskaya {
+    background: linear-gradient(-180deg, rgba(0,0,0,0.00) 30%, #000000 100%), url("../img/owner@2x.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.review-platova {
+    background: linear-gradient(-180deg, rgba(0,0,0,0.00) 30%, #000000 100%), url("../img/owner@2x.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.review-pervishov {
+    background: linear-gradient(-180deg, rgba(0,0,0,0.00) 30%, #000000 100%), url("../img/owner@2x.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-prev {
+    z-index: 999;
+    opacity: 0;
+    width: 80px!important;
+    height: 80px!important;
+    cursor: w-resize!important;
+}
+
+.slick-next {
+    z-index: 999;
+    opacity: 0;
+    width: 80px!important;
+    height: 80px!important;
+    cursor: e-resize!important;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    margin: 16px 0 16px 0;
+}
+
+.big-button {
+    width: 100%;
+    padding: 25px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.light {
+    opacity: .6;
 }

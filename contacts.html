@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Legion Building</title>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+<svg class="hidden">
+    <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <title>arrow</title>
+        <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+    </symbol>
+    <symbol id="icon-plus" viewBox="0 0 25 24">
+        <title>plus</title>
+        <path d="M13.568 11.216h11.216v1.568H13.568V24H12V12.784H.784v-1.568H12V0h1.568v11.216z"/>
+    </symbol>
+    <symbol id="icon-arrowdown" viewBox="0 0 12 25">
+        <title>arrow down</title>
+        <path d="M4.916.3v21.017l-3.563-3.564L.25 18.856 5.7 24.3l5.45-5.444-1.102-1.103-3.564 3.564V.3z"/>
+    </symbol>
+</svg>
+    <main>
+        <header class="codrops-header">
+            <div class="codrops-links">
+                <a class="codrops-icon codrops-icon--prev" href="index.html" title="Главная"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+            </div>
+            <h1 class="codrops-header__title">На главную</h1>
+        </header>
+        <div class="contacts">
+            <div class="slider">
+                <section class="reviews">
+                    <div class="reviews-container">
+                        <div class="reviews-photo review-spaskaya">
+                            <div class="reviews-text">
+                                <p style="font-size: 14px;">Уравнение времени, по определению, прекрасно перечеркивает близкий восход , это довольно часто наблюдается у сверхновых звезд второго типа. Млечный Путь, в первом приближении, перечеркивает радиант. Весеннее равноденствие вращает часовой угол. </p>
+                                <div class="reviews-position --placeholder --white"><span style="text-transform: uppercase;"><b>Иванов Иван Иванович</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-container">
+                        <div class="reviews-photo review-platova">
+                            <div class="reviews-text">
+                                <p style="font-size: 14px;">Уравнение времени, по определению, прекрасно перечеркивает близкий восход , это довольно часто наблюдается у сверхновых звезд второго типа. Млечный Путь, в первом приближении, перечеркивает радиант. Весеннее равноденствие вращает часовой угол. </p>
+                                <div class="reviews-position --placeholder --white"><span style="text-transform: uppercase;"><b>Иванов Иван Иванович</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-container">
+                        <div class="reviews-photo review-pervishov">
+                            <div class="reviews-text">
+                                <p style="font-size: 14px;">Уравнение времени, по определению, прекрасно перечеркивает близкий восход , это довольно часто наблюдается у сверхновых звезд второго типа. Млечный Путь, в первом приближении, перечеркивает радиант. Весеннее равноденствие вращает часовой угол. </p>
+                                <div class="reviews-position --placeholder --white"><span style="text-transform: uppercase;"><b>Иванов Иван Иванович</b></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="form">
+                <a href="index.html" class="logo"></a>
+                <h3>+7(123) 45-67-89</h3>
+                <h4 class="light">8(800) 45-67-89</h4>
+                <h4 class="light">info@legionear.ru</h4>
+                <h4 class="light">support@legionear.ru</h4>
+                <p>Земная группа формировалась ближе к Солнцу, однако пpотопланетное облако гасит метеорный дождь сегодня.
+                    Земная группа формировалась ближе к Солнцу, однако пpотопланетное облако гасит метеорный дождь сегодня</p>
+                <form class="contact-form" action="index.html">
+                    <input class="input" type="tel" placeholder="Телефон *" required>
+                    <input class="input" type="email" placeholder="Email">
+                    <textarea rows="6" class="input" placeholder="Сообщение"></textarea>
+                    <button class="big-button">Связаться</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script>
+        // Reviews
+        $(document).ready(function(){
+            $('.reviews').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            infinite: true,
+            autoplay: false,
+            focusOnSelect: true,
+            responsive: true,
+            variableWidth: true,
+            cssEase: 'ease-in',
+            });
+        });
+    </script>
+</body>
